@@ -40,7 +40,7 @@ setwd("~/Documents/GitHub/QTM200Spring2020/problem_sets/PS1")
 
 y <- c(105, 69, 86, 100, 82, 111, 104, 110, 87, 108, 87, 90, 94, 113, 112, 98, 80, 97, 95, 111, 114, 89, 95, 126, 98)
 
-#Since n<30, I use t-score
+#Since n<30, I use t-score. Confidence coefficient is 0.90.
 t90 <- qt ((1-0.90)/2, df= (25-1), lower.tail = FALSE)
 sample_mean <- mean (y)
 sample_sd <- sd (y)
